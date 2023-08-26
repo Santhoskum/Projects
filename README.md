@@ -3,9 +3,11 @@
 This repository showcases a selection of my coding projects, demonstrating my skills and expertise as a  software developer. 
 
 🌟 Highlights:
+- Bus Reservation using java: This project contains a bus reservation system using oops concepts in java.
 - CM to Metre Convertor: This project gets centimetre from user and displays output in metres.
-- [Project Name 2]: A brief description of the second project and its significance.
-- [Project Name 3]: A brief description of the third project and its significance.
+- Interest Calculator: This Project gets amount and due month as input and displays the amount to be paid by user with interest.
+- Word counter: This project takes a paragraph from user as input and displays the count of words as output.
+- Responsive Restaurant Website: This project displays the services of Restaurant.
 
 Feel free to explore each project to see my coding style, problem-solving abilities, and commitment to clean and efficient code.
 
