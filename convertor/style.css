@@ -1,0 +1,92 @@
+body{
+    background-image: url(media/pexels-francesco-ungaro-281260.jpg);
+    background-position: center;
+    
+}
+.container{
+    background-color: rgba(0,0,0,0.4);
+    width: 40vw;
+    min-height: 50vh;
+    border-radius: 2em;
+    text-align: center;
+    padding: 1.5em;
+    position: relative;
+    left:30vw;
+    top:20vh;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+/*input section with label*/
+.get-input{
+   
+    padding: 2em;
+}
+
+/*label*/
+.get-input label{
+
+    font-weight: bold;
+    
+}
+
+/*input box*/
+.get-input input{
+    width: 100%;
+    margin-top: 1em;
+    padding: 0.5em;
+    margin-right: 2em;
+}
+
+/*button*/
+.container button{
+    transition:1s;
+    border-radius: 50em;
+}
+.container button:hover{
+    color:black;
+    background-color: aqua;
+    text-shadow: 2px;
+    transform: scale(1.2);
+}
+
+/*Result or output*/
+.container #result{
+    margin-top: 1.5em;
+    color: black;
+    width:20%;
+    background:linear-gradient(to right,skyblue,whitesmoke,skyblue);
+    align-self: center;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+/*Circle Animation*/
+#circle{
+    background-color:yellow;
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+    position: relative;
+    top: 10em;
+    right:1.5em;
+    animation-name: circle;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+@keyframes circle {
+    25%{
+        transform: translateX(95vw);
+        background-color: orange;
+    }    
+    50%{
+        transform: translate(95vw,-95vh);
+        background-color: orangered;
+    }
+    75%{
+        transform: translate(0vw,-95vh);
+        background-color: red;
+    }
+}
