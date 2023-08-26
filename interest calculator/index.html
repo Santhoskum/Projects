@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+     <!--container section--> 
+    <div class="container">
+        <h2>Interest Amount Calculator</h2>
+        <div class="get-month">
+            <div><label for="input">Enter The number of Months</label></div>
+            <input type="number" name="input_month" id="input_month" placeholder="count of due months">
+        </div>
+        <div class="get-amt">
+            <div><label for="input_amt">Enter The Borrowed Money</label></div>
+            <input type="number" name="input_amt" id="input_amt" placeholder="Initial amount">
+        </div>
+         <!--button--> 
+        <div class="on-click">
+            <button type="submit" onclick="convert()">convert</button>
+        </div>
+         <!--output--> 
+        <div id="result">
+
+        </div>
+
+   
+    <!--javascript--> 
+    <script>
+        function convert(){
+            let amt=document.getElementById("input_amt").value
+            let month=document.getElementById("input_month").value
+            let interest
+            if(month==0){
+                interest=0
+            }
+            else if(month>0 && month<=3){
+                interest=amt*(0.05)
+            }
+            else if(month<=5){
+                interest=amt*0.1
+            }
+            else{
+                interest=amt*0.2
+            }
+            let result=document.getElementById("result")
+            result.innerHTML=`Interest Amount : ${interest}
+            Total Amount to be paid: ${Number(amt)+Number(interest)}`}
+    </script>
+</body>
+</html>

@@ -1,0 +1,201 @@
+:root{
+    --yellow:rgba(227, 252, 1, 0.9);
+}
+
+body{
+    margin:0;
+    
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    color:var(--yellow);
+}
+
+.landing{
+    background-image: url("media/pexels-jessica-lewis-858094.jpg");
+    height: 100vh;
+    background-size:cover;
+    background-position: bottom;
+    color:whitesmoke;
+    padding: 10px;
+    
+  
+}
+.landing i{
+    margin-right: 0.3em;
+}
+.landing a{
+    display: flex;
+    text-decoration: none;
+}
+header{
+    
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1em;
+   
+}
+#name{
+    flex:2;
+    font-size: 1.5em;
+    min-width: 450px;
+}
+nav{
+    flex: 1;
+    display: flex;
+  
+    
+}
+nav a{
+  
+    justify-items: center;
+    min-width:120px;
+}
+nav a:hover{
+    color: green;
+}
+p,h2,.foot p{
+    margin: 0;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+   
+}
+.intro{
+    font-size: 2em;
+    color: rgba(255, 22, 22, 0.9);
+}
+.question{
+    margin-top: 0px;
+    height: 5vh;
+}
+.call{
+   color: yellow;
+   height: 5vh;
+   
+}
+p{
+    margin: 5px;
+}
+.button{
+    width: 10vw;
+    border-radius: 0.5em;
+    background-color: greenyellow;
+    font-weight: bold;
+    padding: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow:-moz-hidden-unscrollable;
+}
+.list table{
+    width:100%;
+   
+}
+.th{
+    font-weight: bolder;
+    color: greenyellow;
+   
+}
+.list{
+    display: grid;
+    justify-items: center;
+    align-items: stretch;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+   
+}
+.list div{
+    
+    color:whitesmoke;
+}
+#menu,#locate{
+    text-align: center;}
+.list{
+    background: radial-gradient(rgba(107, 106, 106, 0.9),rgba(45, 46, 46, 0.9));
+}
+h2{
+    color: yellow;
+    padding: 1em;
+    background: radial-gradient(rgba(107, 106, 106, 0.9),rgba(45, 46, 46, 0.9));
+}
+.location{
+    display: flex;
+    flex-wrap: wrap;
+    padding:1.5em;
+    background: radial-gradient(rgba(107, 106, 106, 0.9),rgba(45, 46, 46, 0.9));}
+.location div{
+    color:white;
+    min-width: 250px;
+ 
+    margin: 0.5em;
+}
+.location h4{
+    color: yellowgreen;
+}
+.list table{
+    width:auto;
+}
+.list tr{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.8em;
+    
+}
+.list td:nth-child(1){
+    justify-self: left;
+    flex: 1;
+}
+.list td:nth-child(2){
+    justify-self: left;
+}
+.salem{
+    padding-right: 2em;
+}
+footer{
+    background-color: black;
+    color:whitesmoke;
+    padding: 1em;
+}
+footer i{
+    
+    font-size: 1.5em;
+    display: flex;
+}
+#insta,#face,#what{
+    transition: 1s;
+    margin:1em;
+}
+#insta:hover{
+    color:rgb(255, 0, 157);
+    transform: translateY(-0.5em);
+}
+#face:hover{
+    color:blue;
+    transform: translateY(-0.5em);
+}
+#what:hover{
+    color:green;
+    transform: translateY(-0.5em);
+}
+button{
+    transition: 2s;
+}
+button:hover{
+    background-color: yellow;
+    transform:translateX(2em);
+}
+.log{
+    text-align: center;
+}
+.starters,.Drinks,.sides{
+    width: 100%;
+    display: flex;
+    flex-direction: column;}
+.list table{
+    margin: 10px;
+}
+
+
+

@@ -1,0 +1,70 @@
+body{
+    background-color: burlywood;
+    background-position: center;
+    
+}
+.container div{
+    margin: 1em;
+}
+.container{
+    background-color: rgba(0,0,0,0.4);
+    width: 30%;
+    min-height: 50vh;
+    border-radius: 2em;
+    text-align: center;
+    padding: 1.5em;
+    position: relative;
+    left:35%;
+    top:2.5em;
+    bottom: 2.5em;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+
+/*input section with label*/
+.get-input{
+   
+    padding: 2em;
+}
+
+/*label*/
+.get-input label{
+
+    font-weight: bold;
+    margin-bottom: 1em;
+    
+}
+
+/*input box*/
+.get-input input{
+    width: 100%;
+    margin-top: 1em;
+    padding: 0.5em;
+    margin-right: 2em;
+}
+
+/*button*/
+.container button{
+    transition:1s;
+    border-radius: 50em;
+}
+.container button:hover{
+    color:black;
+    background-color: sandybrown;
+    text-shadow: 2px;
+    transform: scale(1.2);
+}
+
+/*Result or output*/
+.container #result{
+    margin-top: 1.5em;
+    color: black;
+    width:20%;
+    background:linear-gradient(to right,burlywood,whitesmoke,burlywood);
+    align-self: center;
+    border-radius: 5px;
+    padding: 0.5em;
+}
