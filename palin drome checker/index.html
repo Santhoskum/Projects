@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+     <!--container section--> 
+    <div class="container">
+        <h2>PALINDROME CHECKER</h2>
+        <div class="get-input">
+            <label  for="input_string">Enter your Input</label><br>
+            <input type="text" name="input" id="input_string" placeholder="type here---">
+        </div>
+         <!--button--> 
+        <div class="on-click">
+            <button type="submit" onclick="check()">check</button>
+        </div>
+         <!--output--> 
+        <div id="result">
+
+        </div>
+
+  
+
+    <!--javascript--> 
+    <script>
+        function check(){
+            let plaindromeInput=document.querySelector("#input_string").value;
+            let str=plaindromeInput.replaceAll(/[^a-zA-Z0-9]/g, "").toLowerCase()
+            console.log(str);
+            let len=str.length-1
+            let t=1
+            let result=document.querySelector("#result")
+            for(i=0;i<len/2;i++){
+                let x=str[i]
+                let y=str[len-i]
+                if(x!=y){
+                    t=0
+                }
+                if(x==y){
+                    t=2
+                }
+            }
+            if(t==2){
+                result.innerHTML="yes palindrome"
+            }
+            else{
+                result.innerHTML="not palindrome"
+            }
+            
+
+            
+        }
+    </script>
+</body>
+</html>
