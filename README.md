@@ -8,6 +8,8 @@ This repository showcases a selection of my coding projects, demonstrating my sk
 - Interest Calculator: This Project gets amount and due month as input and displays the amount to be paid by user with interest.
 - Word counter: This project takes a paragraph from user as input and displays the count of words as output.
 - Responsive Restaurant Website: This project displays the services of Restaurant.
+- Palindrome Checker:This website takes number/word/sentence as input  and removes the special characters inside input and check whether it is palindrome or not.
+- EB Bill Calculator:This website takes units ran on your metre as input and displays the amount of Electricity bill.
 
 Feel free to explore each project to see my coding style, problem-solving abilities, and commitment to clean and efficient code.
 
